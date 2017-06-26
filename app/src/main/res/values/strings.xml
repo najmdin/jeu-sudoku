@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Sudoku</string>
+    <string name="text1">SUDOKU</string>
+    <string name="text2">Nouveau Jeu</string>
+    <string name="nouveau_jeu">Nouveau Jeu</string>
+    <string name="options">Options</string>
+    <string name="score">Score</string>
+    <string name="plus_jeux">Plus de jeux</string>
+</resources>

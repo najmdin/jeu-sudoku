@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/text1"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/text1"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:layout_width="126dp"
+        android:layout_height="20dp"
+        android:text="@string/nouveau_jeu"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/new_game"
+        android:layout_gravity="center"
+        android:layout_weight="0.13"
+        android:background="#40a113" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="20dp"
+        android:text="@string/options"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/button5"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.13"
+        android:background="#a1f412" />
+
+    <Button
+        android:layout_width="129dp"
+        android:layout_height="20dp"
+        android:text="@string/score"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/button7"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.10"
+        android:background="#e1961d" />
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/plus_jeux"
+        android:id="@+id/button6"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.13"
+        android:background="#18a9b6" />
+</LinearLayout>
